@@ -1,0 +1,196 @@
+* {
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lobster', cursive;
+    background-color: #1e272e;
+    width: 100%;
+    height: 100vh;    
+}
+
+.title h1 {
+    position: absolute;
+    left: 50%;
+    top: 1vh;
+    font-size: 6vw;
+    transform: translate(-50%);
+    color: white;
+    font-family: 'Exo 2', sans-serif;
+
+}
+
+.score {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 30%;
+    transform: translate(-50%, -50%);
+}
+
+.score h2{
+    color: white;
+    border-radius: 20px;
+    padding: 10px 10px;
+    font-size: 5vw;
+    text-align: center;
+}
+
+
+
+.new-game {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 5%;
+}
+
+.players {
+    color: white;
+    position: absolute;
+    height: 70vh;
+    width: 80vw;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%);
+    display: inline-flex;
+    justify-content: center;
+    box-shadow: 0px 0px 10px 7px grey;
+    text-align: center;
+}
+
+.players h2 {
+    margin-top: 8px;
+    font-size: 3.5vw;
+}
+
+.players h3 {
+    font-size: 2.5vw;
+    position: absolute;
+    top: 35%;
+    text-align: center;
+    width: 50%;
+    padding: 10px;
+}
+
+
+.players h4 {
+    position: absolute;
+    top: 75%;
+    font-size: 2vw;
+    text-align: center;
+    width: 50%;
+}
+
+
+.player0 {
+    flex: 1;
+    background-color: transparent;
+}
+
+.player1 {
+    flex: 1;
+    background-color: transparent;
+}
+
+.active {
+    transition: 0.8s ease;
+    background-color: #ff7f50;
+}
+
+.dice {
+    width: 100%;
+    height: 60vh;
+    position: absolute;
+    top: 20%;
+    display: inline;
+}
+
+.dice img {
+    width: 15vw;
+    height: 18vh;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    border-radius: 10px;
+    transform: translate(-50%, -50%);
+}
+
+.dice button {
+    height: 3vw;
+    width: 15vw;
+    background-color: whitesmoke;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    font-size: 1.5vw;
+    transition: 0.5s ease;
+    font-family: 'Lobster', cursive;
+
+}
+
+.dice button:hover {
+    background-color: #ff7f50;
+    cursor: pointer;
+    border-radius: 20px;
+    color: white;
+}
+
+.roll-btn {
+    position: absolute;
+    top: 50vh;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.hold-btn {
+    position: absolute;
+    top: 60vh;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.instructions{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    padding: 10px;
+}
+
+.instructions h1{
+    padding: 10px;
+    text-align: center;
+    font-size: 4vw;
+}
+
+.instructions h2{
+    padding: 10px;
+    font-size: 3vw;
+}
+
+.instructions li{
+    padding: 5px;
+    font-size: 2vw;
+}
+
+.instructions a{
+    position: relative;
+    text-decoration: none;
+    left: 40%;
+    color: white;
+    border-radius: 10px;
+    font-size: 2vw;
+    padding: 10px;
+    background-color: #ff7f50;
+    transform: translate(-40%);
+    transition: 0.5s ease;
+}
+
+a:hover{
+    background-color: white;
+    color: #ff7f50;
+    border-radius: 20px;
+}
